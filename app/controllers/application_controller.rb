@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def hello
-      render text, "Life should not be a spectator sport"
+      render text: "Life should not be a spectator sport"
   end 
 end
